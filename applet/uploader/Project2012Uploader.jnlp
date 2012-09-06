@@ -11,18 +11,18 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Project2012Uploader.jar" size="174537" download="eager" />
-    <jar href="lib/commons-codec-1.6.jar" size="253490" download="eager" />
+    <jar href="Project2012Uploader.jar" size="174503" download="eager" />
+    <jar href="lib/commons-codec-1.6.jar" size="253491" download="eager" />
     <jar href="lib/commons-io-2.4.jar" size="198402" download="eager" />
-    <jar href="lib/commons-logging-1.1.1.jar" size="65285" download="eager" />
-    <jar href="lib/fluent-hc-4.2.1.jar" size="24601" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="65288" download="eager" />
+    <jar href="lib/fluent-hc-4.2.1.jar" size="24600" download="eager" />
     <jar href="lib/httpclient-4.2.1.jar" size="462766" download="eager" />
-    <jar href="lib/httpclient-cache-4.2.1.jar" size="123641" download="eager" />
+    <jar href="lib/httpclient-cache-4.2.1.jar" size="123642" download="eager" />
     <jar href="lib/httpcore-4.2.1.jar" size="244987" download="eager" />
-    <jar href="lib/httpmime-4.2.1.jar" size="30060" download="eager" />
+    <jar href="lib/httpmime-4.2.1.jar" size="30059" download="eager" />
     <jar href="lib/jsoup-1.6.3.jar" size="298353" download="eager" />
     <jar href="lib/kxml2-2.3.0.jar" size="46831" download="eager" />
-    <jar href="lib/thumbnailator-0.4.2.jar" size="103269" download="eager" />
+    <jar href="lib/thumbnailator-0.4.2.jar" size="103270" download="eager" />
   </resources>
 <security>
   <all-permissions/>

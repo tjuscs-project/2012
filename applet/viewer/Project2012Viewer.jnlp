@@ -11,17 +11,17 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Project2012Viewer.jar" size="160104" download="eager" />
-    <jar href="lib/commons-codec-1.6.jar" size="253497" download="eager" />
+    <jar href="Project2012Viewer.jar" size="159951" download="eager" />
+    <jar href="lib/commons-codec-1.6.jar" size="253494" download="eager" />
     <jar href="lib/commons-io-2.4.jar" size="198402" download="eager" />
-    <jar href="lib/commons-logging-1.1.1.jar" size="65291" download="eager" />
-    <jar href="lib/fluent-hc-4.2.1.jar" size="24605" download="eager" />
-    <jar href="lib/httpclient-4.2.1.jar" size="462769" download="eager" />
-    <jar href="lib/httpclient-cache-4.2.1.jar" size="123646" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="65289" download="eager" />
+    <jar href="lib/fluent-hc-4.2.1.jar" size="24604" download="eager" />
+    <jar href="lib/httpclient-4.2.1.jar" size="462773" download="eager" />
+    <jar href="lib/httpclient-cache-4.2.1.jar" size="123645" download="eager" />
     <jar href="lib/httpcore-4.2.1.jar" size="244991" download="eager" />
     <jar href="lib/httpmime-4.2.1.jar" size="30064" download="eager" />
-    <jar href="lib/jsoup-1.6.3.jar" size="298355" download="eager" />
-    <jar href="lib/kxml2-2.3.0.jar" size="46834" download="eager" />
+    <jar href="lib/jsoup-1.6.3.jar" size="298354" download="eager" />
+    <jar href="lib/kxml2-2.3.0.jar" size="46833" download="eager" />
   </resources>
 <security>
   <all-permissions/>
