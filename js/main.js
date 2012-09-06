@@ -54,7 +54,7 @@ function hideApplet(){
 function runApp(jarUrl, place){
 	dtjava.embed(
                 {
-                url : 'applet/viewer/Project2012Viewer.jnlp',
+                url : 'http://unihistory.sinaapp.com/applet/viewer/Project2012Viewer.jnlp',
                 placeholder : place,
                 width : "100%",
                 height : 155,
