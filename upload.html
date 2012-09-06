@@ -32,7 +32,19 @@
 	
 	<script src="js/modernizr-2.6.1.min.js"></script>
 	<SCRIPT src="web-files/dtjava.js"></SCRIPT>
-	
+	<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'http://unihistory.sinaapp.com/applet/packager/JavaFxPackager.jnlp'
+            },
+            {
+                javafx : '2.2+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
 	<script>
 		function javafxEmbed() {
 			dtjava.embed(
@@ -90,8 +102,13 @@
 
     <div class="container">
 	<div class="row-fluid" id='javafx-app-placeholder'></div>
+	<div class="row-fluid">
+	<div style="text-align:center">
+		<h4>If you are using Eclipse, Please use this tool to package your app:</h4>
+		<a class="btn btn-primary" href='JavaFxPackager.jnlp' onclick="return launchApplication('JavaFxPackager.jnlp');">JavaFx Packager</a>
+	</div>
+	</div>
 	<br>
-
      <!-- Footer
       ================================================== -->
       <footer class="footer">
