@@ -54,7 +54,7 @@ function hideApplet(){
 function runApp(jarUrl, place){
 	dtjava.embed(
                 {
-                url : 'Project2012Viewer.jnlp',
+                url : 'applet/viewer/Project2012Viewer.jnlp',
                 placeholder : place,
                 width : "100%",
                 height : 155,
