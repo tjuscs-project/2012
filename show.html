@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Show · TJU Project 2012</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="tjumyk">
+
+    <!-- Le styles -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/docs.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+	<link media="screen,projection" href="css/ui.totop.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+	
+	<script src="js/modernizr-2.6.1.min.js"></script>
+	<SCRIPT src="web-files/dtjava.js"></SCRIPT>
+	
+	<script>
+		function javafxEmbed() {
+			dtjava.embed(
+				{
+					url : 'applet/viewer/Project2012Viewer.jnlp',
+					placeholder : 'javafx-app-placeholder',
+					width : "100%",
+					height : 155,
+					jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUHJvamVjdDIwMTJWaWV3ZXIuam5scCI+DQogIDxpbmZvcm1hdGlvbj4NCiAgICA8dGl0bGU+UHJvamVjdDIwMTJWaWV3ZXI8L3RpdGxlPg0KICAgIDx2ZW5kb3I+RTQwLUc4QzwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5TYW1wbGUgSmF2YUZYIDIuMCBhcHBsaWNhdGlvbi48L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqZng6amF2YWZ4LXJ1bnRpbWUgdmVyc2lvbj0iMi4yKyIgaHJlZj0iaHR0cDovL2phdmFkbC5zdW4uY29tL3dlYmFwcHMvZG93bmxvYWQvR2V0RmlsZS9qYXZhZngtbGF0ZXN0L3dpbmRvd3MtaTU4Ni9qYXZhZngyLmpubHAiLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iUHJvamVjdDIwMTJWaWV3ZXIuamFyIiBzaXplPSIxNjAxMDQiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYi9jb21tb25zLWNvZGVjLTEuNi5qYXIiIHNpemU9IjI1MzQ5NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliL2NvbW1vbnMtaW8tMi40LmphciIgc2l6ZT0iMTk4NDAyIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWIvY29tbW9ucy1sb2dnaW5nLTEuMS4xLmphciIgc2l6ZT0iNjUyOTEiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYi9mbHVlbnQtaGMtNC4yLjEuamFyIiBzaXplPSIyNDYwNSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliL2h0dHBjbGllbnQtNC4yLjEuamFyIiBzaXplPSI0NjI3NjkiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYi9odHRwY2xpZW50LWNhY2hlLTQuMi4xLmphciIgc2l6ZT0iMTIzNjQ2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWIvaHR0cGNvcmUtNC4yLjEuamFyIiBzaXplPSIyNDQ5OTEiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYi9odHRwbWltZS00LjIuMS5qYXIiIHNpemU9IjMwMDY0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWIvanNvdXAtMS42LjMuamFyIiBzaXplPSIyOTgzNTUiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYi9reG1sMi0yLjMuMC5qYXIiIHNpemU9IjQ2ODM0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KPHNlY3VyaXR5Pg0KICA8YWxsLXBlcm1pc3Npb25zLz4NCjwvc2VjdXJpdHk+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxNTUiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iUHJvamVjdDIwMTJWaWV3ZXIiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSIyLjIrIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSIyMDAiIGhlaWdodD0iMTU1IiBtYWluLWNsYXNzPSJvcmcudGp1bXlrLk1haW4iICBuYW1lPSJQcm9qZWN0MjAxMlZpZXdlciIgPg0KICAgIDxmeDphcmd1bWVudD5zdGFydDwvZng6YXJndW1lbnQ+DQogIDwvamZ4OmphdmFmeC1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+				},
+				{
+					javafx : '2.2+'
+				},
+				{}
+			);
+		}
+		<!-- Embed FX application into web page once page is loaded -->
+		dtjava.addOnloadCallback(javafxEmbed);
+	</script>
+  </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+  <!-- Navbar
+    ================================================== -->
+ <div class="navbar navbar-fixed-top">
+   <div class="navbar-inner">
+     <div class="container">
+       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </a>
+       <a class="brand" href="index.html">TJU Project 2012</a>
+       <div class="nav-collapse" id="main-menu"><ul class="nav" id="main-menu-left">
+	<li><a href="index.html">Home</a></li>
+	<li class="active"><a href="#">Show</a></li>
+	<li><a href="upload.html">Upload</a></li>
+	<li><a href="about.html">About</a></li>
+	</ul>
+<ul class="nav pull-right" id="main-menu-right">
+	<li><a target="_blank" href="http://luokai.org">Lonnie Heinke's China Home <i class="icon-share-alt"></i></a></li>
+</ul></div>
+     </div>
+   </div>
+ </div>
+
+ <header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Project Showcase</h1>
+    <p class="lead">We have made so many interesting games!</p>
+  </div>
+</header>
+
+    <div class="container" style="margin-top:30px">
+	<div class="row-fluid" id='javafx-app-placeholder'></div>
+	<div class="row-fluid">
+		<ul class="thumbnails app-row">
+			
+		</ul>
+	</div>
+	<br>
+
+     <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+			<p>Copyright © Tianjin University, 2012</p>
+      </footer>
+    </div><!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery-1.8.1.min.js"></script>
+	<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<script src="js/console.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/jquery.ui.totop.min.js"></script>
+	<script src="js/ui.totop.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/docs.js"></script>
+	<script src="js/main.js"></script>
+  </body>
+</html>

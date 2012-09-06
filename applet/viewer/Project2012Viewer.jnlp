@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Project2012Viewer.jnlp">
+  <information>
+    <title>Project2012Viewer</title>
+    <vendor>E40-G8C</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Project2012Viewer.jar" size="160104" download="eager" />
+    <jar href="lib/commons-codec-1.6.jar" size="253497" download="eager" />
+    <jar href="lib/commons-io-2.4.jar" size="198402" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="65291" download="eager" />
+    <jar href="lib/fluent-hc-4.2.1.jar" size="24605" download="eager" />
+    <jar href="lib/httpclient-4.2.1.jar" size="462769" download="eager" />
+    <jar href="lib/httpclient-cache-4.2.1.jar" size="123646" download="eager" />
+    <jar href="lib/httpcore-4.2.1.jar" size="244991" download="eager" />
+    <jar href="lib/httpmime-4.2.1.jar" size="30064" download="eager" />
+    <jar href="lib/jsoup-1.6.3.jar" size="298355" download="eager" />
+    <jar href="lib/kxml2-2.3.0.jar" size="46834" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="200" height="155" main-class="com.javafx.main.NoJavaFXFallback"  name="Project2012Viewer" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="200" height="155" main-class="org.tjumyk.Main"  name="Project2012Viewer" >
+    <fx:argument>start</fx:argument>
+  </jfx:javafx-desc>
+  <update check="always"/>
+</jnlp>

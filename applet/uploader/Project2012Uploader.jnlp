@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Project2012Uploader.jnlp">
+  <information>
+    <title>Project2012Uploader</title>
+    <vendor>E40-G8C</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Project2012Uploader.jar" size="174537" download="eager" />
+    <jar href="lib/commons-codec-1.6.jar" size="253490" download="eager" />
+    <jar href="lib/commons-io-2.4.jar" size="198402" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="65285" download="eager" />
+    <jar href="lib/fluent-hc-4.2.1.jar" size="24601" download="eager" />
+    <jar href="lib/httpclient-4.2.1.jar" size="462766" download="eager" />
+    <jar href="lib/httpclient-cache-4.2.1.jar" size="123641" download="eager" />
+    <jar href="lib/httpcore-4.2.1.jar" size="244987" download="eager" />
+    <jar href="lib/httpmime-4.2.1.jar" size="30060" download="eager" />
+    <jar href="lib/jsoup-1.6.3.jar" size="298353" download="eager" />
+    <jar href="lib/kxml2-2.3.0.jar" size="46831" download="eager" />
+    <jar href="lib/thumbnailator-0.4.2.jar" size="103269" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Project2012Uploader" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="org.tjumyk.Main"  name="Project2012Uploader" />
+  <update check="always"/>
+</jnlp>
